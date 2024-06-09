@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+body{
+    background-color:  #ffffff;
+    font-family: 'Oxygen', sans-serif;    color: #000;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+header{
+    background-color: #5481c2;
+    color: #000;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+  
+header ul{
+    display: flex;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li{
+    height: inherit;
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+strong{
+    color: #2b5094;
+    padding-left: 12px;
+}
+
+.button{
+    background-color: #2b5094;
+    color: #fff;
+    width: 105px;
+    height: 31px;
+    border: 1px solid #2b5094;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: white;
+    width: 105px;
+    height: 31px;
+    border: 1px solid #2b5094;
+    border-radius: 5px;
+    transition: .6s ease;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-presentation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5481c2;
+}
+
+
+.hero-title-one{
+    color: white;
+}
+.hero-title-one,.services-title-one{
+    padding-top: 5rem;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: -12px;
+    letter-spacing: -3px;
+}
+
+.hero-text-question{
+    font-size: 40px;
+    font-weight: 100;
+    color: #2b5094;
+    margin-bottom: 22px;
+    letter-spacing: -1px;
+}
+
+.hero-hero{
+    color: #2b5094;
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: -8px;
+    letter-spacing: -1px;
+}
+
+.hero-contact-button{
+    width: 110px;
+    height: 45px;
+    transition: .2s;
+}
+
+.hero-contact{
+    color: #fff;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,BlinkMacSystemFont,Segoe;
+    font-weight: 600;
+}
+ 
+.hero-subtitle-presentation{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 25px;
+    
+}
+
+
+.hero-subtitle{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 25px;
+    
+}
+
+.hero-contact-button{
+    background-color: #2b5094  ;
+    color: #fff;
+    border: 1px solid #2b5094;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 219px;
+    height: 35px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.hero-contact-button:hover{
+    transition: .6s ease;
+    background-color:transparent;
+    border: 1px solid #2b5094;
+    color: white;
+}
+
+
+.hero-contact-buttonTwo{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 127px;
+    height: 35px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.hero-contact-buttonTwo:hover{
+    transition: .6s ease;
+    background-color:gray;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.content-logo{
+    height: 500px;
+}
+
+.logo-logo{
+    top: auto;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+}
+
+.hero-logo{
+    width: 404px;
+}
+
+
+/*=================================================== */
+.project-container{
+    background-color: #f8f8f8;
+    height: 432px;
+
+}
+
+.container-title{
+    font-size: 33px;
+    padding: 26px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.container-subtitle{
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: -108px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+.container-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21vh;
+    list-style: none;
+}
+
+.container-number .number{
+    height: inherit;
+}
+
+ .number{
+    display: flex;
+    align-items: center;
+    padding: 0 94px;
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+th, td{
+    margin: 61px;
+    padding: 7px 92px;
+    font-size: 27px;    
+}
+
+td{
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* *============ABOUT US=============*/
+.services-logo{
+    height: 500px;
+}
+
+.services-logo-logo{
+    top: 30px;
+    position: relative;
+    right: 0;
+    z-index: 1;
+    border: 3px solid #80808021;
+    border-radius: 50%;
+    border-bottom: 3px solid #2b5094;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.services-hero-logo{
+    width: 404px;
+}
+
+
+.services-title-one{
+    margin-bottom: 26px;
+    padding-top: 8rem;
+}
+
+.hero-text-more{
+    font-size: 21px;
+    color: #2b5094;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 47px;
+    transition: .5s;
+}
+
+.hero-text-more:hover{
+  
+    transition: .5s ease;
+    transform:  scale(1.1);
+
+}
+
+
+/* ======== SERVICIOS ========*/
+
+
+.project-article-flex{
+    display: flex;
+}
+
+
+.services-article{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 9px;
+    border-bottom: 2px solid gray;
+    padding: 31px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.services-article:hover{
+    border-bottom: 3px solid #2b5094;
+    transition: .6s ease;
+    background-color: #f8f8f8;
+    transform: scale(1.1);
+}
+
+.services-subtitle{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.services-tittle{
+    margin: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+
+
+/* ========FOOTER=========*/
+
+.footer{
+    height: 222px;
+    margin: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer-copy{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4.5rem;
+}
+
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    padding-left: 150px;
+}
+
+.footer-link-jr{
+   text-decoration: none;
+   padding: 10px;
+   color: #000;
+   font-size: 1.2em;
+}
+
+
+.footer-text{
+    font-size: 35px;
+}
+
+.footer-subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #2b5094;
+}
+
+/* CONTACTO */
+
+.tittle{
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 15px;
+    line-height: 1.1;
+}
+
+.container{
+    max-width: 977px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.from{
+    width: 519px;
+}
+
+.dato[type="text"],
+textarea,
+input[type="text"]{
+    color: #000;
+    font-size: 15px;
+}
+
+.dato[type="text"]{
+    background-color: transparent;
+    width: 16em;
+    height: 50px;
+    display: inline-block;
+    outline: none;
+    padding: 20px;
+    border: 1px solid #2b5094;
+    border-radius: 7px;
+    margin: 20px auto;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    display: block;
+    outline: none;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #2b5094;
+    border-radius: 7px;
+}
+
+
+textarea{
+    background-color: transparent;
+    width: 100%;
+    max-width: 98%;
+    display: block;
+    outline: none;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #2b5094;
+    border-radius: 7px;
+}
+
+input[type="submit"]{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: #2b5094;
+    outline: none;
+    border: 1px solid #2b5094;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid #2b5094;
+    background-color: transparent;
+    color: #5481c2;
+    transition: .6s ease;
+}
+
+input[type="submit"]:active{
+    color: #2b5094;
+} 
+
+.Contacto {
+    margin: 40px;
+}
